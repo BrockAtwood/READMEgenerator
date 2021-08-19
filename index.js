@@ -7,35 +7,37 @@ const generateMarkdown = require("./utils/generateMarkdown");
 const questions = [
   {
     type: "input",
-    message: "What is your GitHub username?",
-    name: "GitHub",
-  },
-  {
-    type: "input",
-    message: "What is your email address?",
-    name: "Email",
-  },
-  {
-    type: "input",
     name: "title",
     message: "What is your project name?",
   },
   {
     type: "input",
     name: "description",
-    message: "Give a brief description of your project",
+    message: "Give a brief description of your project.",
   },
-  {
-    type: "list",
-    name: "license",
-    message: "What kind of license does your project use?",
-    choices: ["MIT", "Apache", "Creative Commons", "Eclipse"],
-  },
+  //Table of Contents here for linking through the README.md file
   {
     type: "input",
     name: "installation",
     message: "What commands should we run for dependencies?",
     default: "npm i",
+  },
+  {
+    type: "input",
+    name: "Usage",
+    message:
+      "Provide instructions and examples for use. including screenshots as needed.",
+  },
+  {
+    type: "list",
+    name: "license",
+    message: "What kind of license does your project use?",
+    choices: ["MIT", "Javascript", "Apache", "GLP", "Compliant"],
+  },
+  {
+    type: "input",
+    name: "contributing",
+    message: "How does a user contribute to this project?",
   },
   {
     type: "input",
@@ -45,8 +47,13 @@ const questions = [
   },
   {
     type: "input",
-    name: "contributing",
-    message: "How does a user contribute to this project?",
+    message: "What is your GitHub username?",
+    name: "GitHub",
+  },
+  {
+    type: "input",
+    message: "What is your email address?",
+    name: "Email",
   },
 ];
 
