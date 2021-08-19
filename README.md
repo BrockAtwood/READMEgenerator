@@ -1,1 +1,1 @@
-# READMEgenerator
+{"github":"asdf","email":"asdfasd","title":"asdfasdf","description":"sadfsd","license":"MIT","installation":"npm i","test":"npm run test","contributor":"asdfasdf"}
