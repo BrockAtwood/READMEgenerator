@@ -7,13 +7,13 @@ const generateMarkdown = require("./utils/generateMarkdown");
 const questions = [
   {
     type: "input",
-    message: "What is your github username?",
-    name: "github",
+    message: "What is your GitHub username?",
+    name: "GitHub",
   },
   {
     type: "input",
     message: "What is your email address?",
-    name: "email",
+    name: "Email",
   },
   {
     type: "input",
@@ -29,7 +29,7 @@ const questions = [
     type: "list",
     name: "license",
     message: "What kind of license does your project use?",
-    choices: ["MIT", "FONZI", "STP"],
+    choices: ["MIT", "Apache", "Creative Commons", "Eclipse"],
   },
   {
     type: "input",
@@ -45,20 +45,22 @@ const questions = [
   },
   {
     type: "input",
-    name: "contributor",
+    name: "contributing",
     message: "How does a user contribute to this project?",
   },
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+  fs.writeFile("README.md", data, (err) => {
+    err ? console.log(err) : console.log("File was written!");
+  });
+}
 
 // TODO: Create a function to initialize app
 function init() {
-  inquirer.prompt(questions).then((data) => {
-    fs.writeFile("README.MD", JSON.stringify(data), (err) => {
-      err ? console.log(err) : console.log("File was written!!!");
-    });
+  return inquirer.prompt(questions).then((data) => {
+    writeToFile("README.md", generateMarkdown(data));
   });
 }
 
