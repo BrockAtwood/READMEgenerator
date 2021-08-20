@@ -37,3 +37,7 @@ Image#2: (Bottom half)
 ## URL of the GitHub repository
 
 https://github.com/BrockAtwood/READMEgenerator
+
+## Screencastify Link
+
+https://drive.google.com/file/d/1z8wwt8sIL8N-l4WgPidBJJuy_ZPlgKnW/view?usp=sharing
