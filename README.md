@@ -28,10 +28,6 @@ THEN this is added to the section of the README entitled Questions, with instruc
 
 ## Screenshot:
 
-![alt text]()
-
-Screen Shot 2021-08-20 at 4.15.19 PM.png)
-
 ## URL of the GitHub repository
 
 https://github.com/BrockAtwood/READMEgenerator

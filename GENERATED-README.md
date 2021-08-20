@@ -1,11 +1,11 @@
 
-  # asdf
+  # GENERATOR-README
 
   ## License
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
  
   ## Description
-  asdf
+  To help users quickly create a README.md file, and thus save more time to commit for the actual building of the application.
   
   ## Table of Contents
 
@@ -29,7 +29,8 @@
   npm i
 
   ## Usage
-  * To add a screenshot, create an assets/images folder in your repository and upload your screenshot to it. 
+  * Do not forget to add a screenshot of your final app. 
+  * First, create an assets/images folder in your repository and upload your screenshot to it. 
   * Then, using the relative filepath, add it to your README using the following syntax:
   * !&lsqb;alt text&lsqb;(assets/images/screenshot.png)
 
@@ -37,15 +38,15 @@
   MIT
   
   ## Contributing
-  asdfsd
+  The user can contribute to this project by completing the proper installations and answering the command-line questions thoroughly, appropriately, and accurately.
 
   ## Tests
   npm run test
 
   ## Questions
-  github.com/adsfsd
+  github.com/BrockAtwood
 
-  asdf
+  brockatwood@gmail.com
 
   
 
