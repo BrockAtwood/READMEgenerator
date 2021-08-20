@@ -1,5 +1,7 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
+
+//added links for license badges with their links that will render at the top of the GENERATED-README file
 function renderLicenseBadge(license) {
   if (license === "MIT") {
     return `## License
@@ -31,6 +33,8 @@ function renderLicenseSection(license) {
 }
 
 // TODO: Create a function to generate markdown for README
+
+//inputs users answer from index.js questions array to dispaly in GENERATED-README file
 function generateMarkdown(data) {
   return `
   # ${data.title}
@@ -62,7 +66,8 @@ function generateMarkdown(data) {
   ${data.installation}
 
   ## Usage
-  * To add a screenshot, create an assets/images folder in your repository and upload your screenshot to it. 
+  * Do not forget to add a screenshot of your final app. 
+  * First, create an assets/images folder in your repository and upload your screenshot to it. 
   * Then, using the relative filepath, add it to your README using the following syntax:
   * !&lsqb;alt text&lsqb;(assets/images/screenshot.png)
 
