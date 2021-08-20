@@ -1,5 +1,7 @@
 // TODO: Include packages needed for this application
 const inquirer = require("inquirer");
+
+//added and installed fs and generateMarkDown
 const fs = require("fs");
 const generateMarkdown = require("./utils/generateMarkdown");
 
@@ -16,7 +18,7 @@ const questions = [
     message:
       "Give a brief description of your project. Why did you build it? What problem does it solve?",
   },
-  //Table of Contents here for linking through the README.md file
+  //Table of Contents here for linking through the GENERATED-README.md file
   {
     type: "input",
     name: "installation",
