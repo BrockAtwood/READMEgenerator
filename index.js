@@ -13,7 +13,8 @@ const questions = [
   {
     type: "input",
     name: "description",
-    message: "Give a brief description of your project.",
+    message:
+      "Give a brief description of your project. Why did you build it? What problem does it solve?",
   },
   //Table of Contents here for linking through the README.md file
   {
@@ -24,7 +25,7 @@ const questions = [
   },
   {
     type: "input",
-    name: "Usage",
+    name: "usage",
     message:
       "Provide instructions and examples for use. including screenshots as needed.",
   },
@@ -32,7 +33,7 @@ const questions = [
     type: "list",
     name: "license",
     message: "What kind of license does your project use?",
-    choices: ["MIT", "Javascript", "Apache", "GLP", "Compliant"],
+    choices: ["MIT", "Apache 2.0", "IBM-IPL 1.0", "None"],
   },
   {
     type: "input",

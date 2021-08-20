@@ -1,9 +1,11 @@
 
-  # Titlte
+  # REAME GENERATOR
 
-
+  ## License
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+ 
   ## Description
-  helps make a readme file
+  Generates a readme for the user
   
   ## Table of Contents
 
@@ -27,20 +29,19 @@
   npm i
 
   ## Usage
-  undefined
+  blah
 
   ## License
   MIT
   
   ## Contributing
-  input data when asked questions
+  asdf
 
   ## Tests
   npm run test
 
   ## Questions
-  brockatwood
-  //link setup
+  github.com/BrockAtwood
 
   brockatwood@gmail.com
 
