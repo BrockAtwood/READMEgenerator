@@ -54,9 +54,9 @@ const questions = [
   },
 ];
 
-// TODO: Create a function to write README file
+// TODO: Create a function to write GENERATED-README file
 function writeToFile(fileName, data) {
-  fs.writeFile("README.md", data, (err) => {
+  fs.writeFile("GENERATED-README.md", data, (err) => {
     err
       ? console.log(err)
       : console.log("GENERATED-README.md file was created and written!");
@@ -66,7 +66,7 @@ function writeToFile(fileName, data) {
 // TODO: Create a function to initialize app
 function init() {
   return inquirer.prompt(questions).then((data) => {
-    writeToFile("README.md", generateMarkdown(data));
+    writeToFile("GENERATED-README.md", generateMarkdown(data));
   });
 }
 
