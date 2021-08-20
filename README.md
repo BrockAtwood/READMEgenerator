@@ -1,11 +1,11 @@
 
-  # REAME GENERATOR
+  # asdf
 
-  ## License
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  ## Licence
+  [![License: IPL 1.0](https://img.shields.io/badge/License-IPL%201.0-blue.svg)](https://opensource.org/licenses/IPL-1.0)
  
   ## Description
-  Generates a readme for the user
+  asdf
   
   ## Table of Contents
 
@@ -29,10 +29,12 @@
   npm i
 
   ## Usage
-  blah
+  * To add a screenshot, create an assets/images folder in your repository and upload your screenshot to it. 
+  * Then, using the relative filepath, add it to your README using the following syntax:
+  * ~~~![alt text](assets/images/screenshot.png)~~~
 
   ## License
-  MIT
+  IBM-IPL 1.0
   
   ## Contributing
   asdf
@@ -41,9 +43,9 @@
   npm run test
 
   ## Questions
-  github.com/BrockAtwood
+  github.com/asdf
 
-  brockatwood@gmail.com
+  asdf
 
   
 

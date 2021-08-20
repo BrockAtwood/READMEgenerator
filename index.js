@@ -24,12 +24,6 @@ const questions = [
     default: "npm i",
   },
   {
-    type: "input",
-    name: "usage",
-    message:
-      "Provide instructions and examples for use. including screenshots as needed.",
-  },
-  {
     type: "list",
     name: "license",
     message: "What kind of license does your project use?",
