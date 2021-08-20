@@ -1,54 +1,56 @@
+# GENERATOR-README
 
-  # GENERATOR-README
+## License
 
-  ## License
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
- 
-  ## Description
-  To help users quickly create a README.md file, and thus save more time to commit for the actual building of the application.
-  
-  ## Table of Contents
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-  -[ Title](#title)
+## Description
 
-  -[ Description](#description)
+To help users quickly create a README.md file, and thus save more time to commit for the actual building of the application.
 
-  -[ Installation](#installation)
+## Table of Contents
 
-  -[ Usage](#usage)
+-[ Title](#title)
 
-  -[ License](#license)
+-[ Description](#description)
 
-  -[ Contributing](#contributing)
+-[ Installation](#installation)
 
-  -[ Tests](#tests)
+-[ Usage](#usage)
 
-  -[ Questions](#questions)
+-[ License](#license)
 
-  ## Installation
-  npm i
+-[ Contributing](#contributing)
 
-  ## Usage
-  * Do not forget to add a screenshot of your final app. 
-  * First, create an assets/images folder in your repository and upload your screenshot to it. 
-  * Then, using the relative filepath, add it to your README using the following syntax:
-  * !&lsqb;alt text&lsqb;(assets/images/screenshot.png)
+-[ Tests](#tests)
 
-  ## License
-  MIT
-  
-  ## Contributing
-  The user can contribute to this project by completing the proper installations and answering the command-line questions thoroughly, appropriately, and accurately.
+-[ Questions](#questions)
 
-  ## Tests
-  npm run test
+## Installation
 
-  ## Questions
-  github.com/BrockAtwood
+npm i
 
-  brockatwood@gmail.com
+## Usage
 
-  
+- Do not forget to add a screenshot of your final app.
+- First, create an assets/images folder in your repository and upload your screenshot to it.
+- Then, using the relative filepath, add it to your README using the following syntax:
+- !&lsqb;alt text&lsqb;(assets/images/screenshot.png)
 
+## License
 
+MIT
 
+## Contributing
+
+The user can contribute to this project by completing the proper installations and answering the command-line questions thoroughly, appropriately, and accurately.
+
+## Tests
+
+npm run test
+
+## Questions
+
+github.com/BrockAtwood
+
+brockatwood@gmail.com

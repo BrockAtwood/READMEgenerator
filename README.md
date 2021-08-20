@@ -28,6 +28,12 @@ THEN this is added to the section of the README entitled Questions, with instruc
 
 ## Screenshot:
 
+Image #1: (Top half)
+![image1](assets-images/image1.png)
+
+Image#2: (Bottom half)
+![image1](assets-images/image2.png)
+
 ## URL of the GitHub repository
 
 https://github.com/BrockAtwood/READMEgenerator
